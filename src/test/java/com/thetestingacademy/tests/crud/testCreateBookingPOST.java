@@ -11,6 +11,7 @@ import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.*;
 
+
 public class testCreateBookingPOST extends BaseTest {
     @Test(groups = "smoke")
     @Owner("Promode")
@@ -41,7 +42,7 @@ public class testCreateBookingPOST extends BaseTest {
 
 
     @Test(groups = "smoke")
-    @Owner("Promode")
+    @Owner("Promod")
     @Severity(SeverityLevel.NORMAL)
     @Description("TC#1 - Verify that the Booking can be Created")
     public void testCreateBookingNegative() {

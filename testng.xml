@@ -4,10 +4,6 @@
     <test verbose="2" preserve-order="true" name="C:/Users/vamshikrishna.v/IdeaProjects/APIAutomation">
         <classes>
             <class name="com.thetestingacademy.tests.crud.testCreateBookingPOST">
-                <methods>
-                    <include name="testCreateBooking"/>
-                    <include name="testCreateBookingNegative"/>
-                </methods>
             </class>
         </classes>
     </test>
